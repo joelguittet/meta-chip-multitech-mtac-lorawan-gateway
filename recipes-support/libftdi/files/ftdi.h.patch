@@ -1,0 +1,11 @@
+--- a/src/ftdi.h	2014-02-05 17:24:11.000000000 +0100
++++ b/src/ftdi.h	2018-04-22 17:37:07.802030000 +0200
+@@ -20,6 +20,8 @@
+ #include <stdint.h>
+ #include <sys/time.h>
+ 
++#define LIBUSB_CALL
++
+ /* 'interface' might be defined as a macro on Windows, so we need to
+  * undefine it so as not to break the current libftdi API, because
+  * struct ftdi_context has an 'interface' member
