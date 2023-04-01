@@ -11,7 +11,7 @@ This layer depends on the additional mandatory layers:
 * meta-openembedded/meta-oe
 * meta-openembedded/meta-python
 * meta-openembedded/meta-networking
-* meta-chip (from my GitHub https://github.com/myfreescalewebpage/meta-chip)
+* meta-chip (from my GitHub https://github.com/joelguittet/meta-chip)
 
 
 Hardware of the LoRaWAN Gateway
@@ -19,7 +19,7 @@ Hardware of the LoRaWAN Gateway
 
 The Gateway is created using the MTAC-LORA board from Multitech (https://www.multitech.com/brands/multiconnect-mcard). It is mounted on a cheap USB to mini-PCIe adapter. However, because the total consumption of the MTAC-LORA and C.H.I.P. boards is too large, a separated 5 Volts supply is required to supply the MTAC-LORA board as shown on the following photo.
 
-![hardware](https://github.com/myfreescalewebpage/meta-chip-multitech-mtac-lorawan-gateway/blob/master/hardware.jpg)
+![hardware](https://github.com/joelguittet/meta-chip-multitech-mtac-lorawan-gateway/blob/master/hardware.jpg)
 
 
 Software of the LoRaWAN Gateway
@@ -43,7 +43,7 @@ Using
 
 The image "chip-image-chip-multitech-mtac-lorawan-gateway" should be generated and flashed to the C.H.I.P. board. The gateway is immediatly running. It has been tested with a free and open-source LoRaWAN server available at https://github.com/gotthardp/lorawan-server.
 
-Details about generation and flashing of the image are available on my meta-chip layer at https://github.com/myfreescalewebpage/meta-chip.
+Details about generation and flashing of the image are available on my meta-chip layer at https://github.com/joelguittet/meta-chip.
 
 
 Contributing
@@ -57,7 +57,7 @@ Use Github Issues to report anomalies or to propose enhancements (labels are ava
 References
 --
 
-* https://github.com/myfreescalewebpage/meta-chip
+* https://github.com/joelguittet/meta-chip
 * https://github.com/mirakonta/packet_forwarder
 * https://github.com/mirakonta/lora_gateway
 * https://github.com/gotthardp/lorawan-server
